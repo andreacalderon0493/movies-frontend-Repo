@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./MovieItem.css";
 const MovieItem = ({ title }) => {
   const [isFavorite, setIsFavorite] = useState(false);
-  console.log(isFavorite);
 
   const handleClick = (e) => {
     setIsFavorite(!isFavorite);
